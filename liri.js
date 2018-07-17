@@ -1,9 +1,11 @@
 require("dotenv").config();
-client.post("status/update",{status:"I lose Twitter"},function(error,tweet,response){
-    if(error)
-    {
-    return(error);
-    }
-    console.log(tweet);
-    console.log(response);
-});
+
+var key = require("./keys.js");
+
+var Spotify = require ("node-spotify-api");
+var Twitter = require("twitter");
+
+var spotify = new Spotify(key.spotify);
+var client = new Twitter(key.twitter);
+console.log(spotify);
+console.log(client);
