@@ -29,13 +29,8 @@ function spotifyThis(userInput2) {
                  console.log(songs[k].artist);
                   console.log(songs[k].name);
                  console.log(songs[k].album.name);
-                 console.log(songs[k].artist.href);
-                 if(songs[k],artist.href = "null")
-                 {
-                     console.log("url is not available ");
-                 }
-              
-
+                 
+                
             }
             
             
@@ -51,9 +46,10 @@ console.log(userInput1, userInput2);
  function tweets() {
 
      var params = {
-         screen_name: "userinput1",
+         screen_name: "NaderiRyeon",
         count: 5
     };
+    
     //  defining personal credentials 
     var client = new Twitter(key.twitter);
     //  attempting to get our tweets
@@ -65,8 +61,7 @@ console.log(userInput1, userInput2);
             for (var i = 0; i < tweets.length; i++) {
                 console.log("ryeon tweeted " + tweets[i].text + "at " + tweets[i].created_at);
             }
-            // console.log(tweets);
-            // console.log(tweets.length);
+            
         }
     });
 
