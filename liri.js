@@ -25,7 +25,7 @@ function spotifyThis(userInput2) {
                 console.log(songs[k].artists.map(function(artist){
                      return artist.name;
                  }));
-                console.log(songs[k]);
+                
                  console.log(songs[k].artist);
                   console.log(songs[k].name);
                  console.log(songs[k].album.name);
