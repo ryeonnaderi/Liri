@@ -46,7 +46,7 @@ console.log(userInput1, userInput2);
  function tweets() {
 
      var params = {
-         screen_name: "NaderiRyeon",
+         screen_name: "userinput1",
         count: 5
     };
     //  defining personal credentials 
