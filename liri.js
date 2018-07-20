@@ -75,7 +75,10 @@ function movie(userInput2) {
             var jsonData = JSON.parse(body);
             console.log(jsonData.Title);
             console.log(jsonData.Year);
-            console.log(jsonData.Ratings[1].Value);
+            console.log(jsonData.Genre);
+            console.log(jsonData.Language);
+            console.log(jsonData.Country);
+            // console.log(jsonData.Ratings[1].Value);
 
         } else if (error) {
             console.log(error);
