@@ -29,8 +29,8 @@ function spotifyThis(userInput2) {
                  console.log(songs[k].artist);
                   console.log(songs[k].name);
                  console.log(songs[k].album.name);
-              
-
+                 
+                
             }
             
             
@@ -49,6 +49,7 @@ console.log(userInput1, userInput2);
          screen_name: "NaderiRyeon",
         count: 5
     };
+    
     //  defining personal credentials 
     var client = new Twitter(key.twitter);
     //  attempting to get our tweets
@@ -60,8 +61,7 @@ console.log(userInput1, userInput2);
             for (var i = 0; i < tweets.length; i++) {
                 console.log("ryeon tweeted " + tweets[i].text + "at " + tweets[i].created_at);
             }
-            // console.log(tweets);
-            // console.log(tweets.length);
+            
         }
     });
 
